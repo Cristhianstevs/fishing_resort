@@ -4,23 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fishing Resort</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body  onresize="mudouTamanho()">
     <header>
         <nav class="navbar">
             <img src="img/logo_fr.png" alt="logo fishing resort wii">
-            <nav class="links">
-                <a href="index.html">Início</a>
-                <a href="#">Regiões</a>
-                <a href="#">Peixes</a>
-                <a href="#">Equipamentos</a>
-                <a href="#">Aquário</a>
-            </nav>
+            <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+            <menu id="itens">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Peixes</a></li>
+                    <li><a href="#">Regiões</a></li>
+                    <li><a href="#">Equipamentos</a></li>
+                    <li><a href="#">Aquário</a></li>
+                </ul>
+            </menu>
         </nav>
     </header>
     <main>
-        <article class="imgprincipal"><!-- Imagem principal -->></article>
+        <article class="imgprincipal"><!-- Imagem principal --></article>
         <article class="conteudo_principal">
             <h1>Wiki Fishing Resort</h1>
             <p>Fishing Resort é um jogo desenvolvido pela Prope exclusivamente para o Nintendo Wii, o jogo é em estilo RPG de mundo semi-aberto. O principal objetivo é completar o livro de peixes. O jogo contém exatamente 216 espécies, sendo 12 que só podem aparecer com senha. O objetivo deste wiki é ajudar os jogadores a coletar todos, aprender sobre eles, e ter sucesso no objetivo principal, pegar todos os peixes! O jogo contém espécies do mundo todo, e alguns extintos também!</p>
@@ -36,5 +40,26 @@
     <footer>
 
     </footer>
+
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = "flex"
+                itens.style.paddingBottom = "30px"
+            }
+            else {
+                itens.style.display = "none"
+            }
+        }
+        function clickMenu() {
+            if (itens.style.display == "flex") {
+                itens.style.display = "none"
+            }
+            else {
+                itens.style.display = "flex"
+                itens.style.paddingBottom = "30px"
+            }
+        }
+    </script>
 </body>
 </html>

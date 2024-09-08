@@ -1,27 +1,54 @@
 @charset "UTF-8";
 
+/* MOBILE FIRST */
+
 * {
     margin: 0;
     padding: 0;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
 }
 
 
 
 header .navbar {
     background-color: #fff;
-    display: flex;
+    display: block;
     align-items: center;
     position: fixed;
+    justify-content: space-between;
     width: 100%;
 }
-header img {
+header .navbar img {
     width: 130px;
-    padding: 10px;
+    margin: 10px;
 }
-header .links a {
+header .navbar #burger {
+    position: absolute;
+    right: 0;
+    top: 35%;
+    display: block;
+    cursor: pointer;
+    margin-right: 25px;
+}
+header .navbar #itens {
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 100%;
+}
+header .navbar ul {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+header .navbar ul li {
+    list-style: none;
+}
+header .navbar ul li a {
+    font-size: 1.2em;
     height: 100%;
     margin: 0 5px;
     color: black;
@@ -35,10 +62,11 @@ main {
     color: #222;
 }
 main .imgprincipal {
+    width: 100vw;
     background-image: url(../img/fr_background03.jpg);
     background-size: cover;
+    background-position: center top;
     background-repeat: no-repeat;
-    background-position: center center;
     height: 700px;
     display: block;
 }
@@ -47,14 +75,15 @@ main .conteudo_principal {
 }
 main .conteudo_principal h1 {
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 4.2vw;
+    font-weight: 900;
 }
 main .conteudo_principal p {
-    text-indent: 30px;
-    line-height: 1.4em;
+    text-indent: 10px;
+    line-height: 1.5em;
     max-width: 700px;
-    font-size: 20px;
-    padding-bottom: 50px;
+    font-size: 2.5vw;
+    padding-bottom: 20px;
 }
 main .penan {
     display: flex;
