@@ -76,11 +76,11 @@ main {
     color: #222;
 }
 main .vazio {
-    height: 30px;
+    height: 70px;
 }
 main .imgprincipal {
     width: 100vw;
-    background-image: url(../img/fr_background03.jpg);
+    background-image: url(../img/fr_background04.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
