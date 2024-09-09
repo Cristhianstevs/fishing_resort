@@ -14,27 +14,45 @@
             <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
             <menu id="itens">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Peixes</a></li>
-                    <li><a href="#">Regiões</a></li>
-                    <li><a href="#">Equipamentos</a></li>
-                    <li><a href="#">Aquário</a></li>
+                    <li><a href="#">Início<span class="material-symbols-outlined">chevron_right</span></a></li>
+                    <li><a href="#">Aquário<span class="material-symbols-outlined">chevron_right</span></a></li>
+                    <li><a href="#">Cartões<span class="material-symbols-outlined">chevron_right</span></a></li>
+                    <li><a href="#">Computador<span class="material-symbols-outlined">chevron_right</span></a></li>
+                    <li><a href="#">Desafios<span class="material-symbols-outlined">chevron_right</span></a></li>
+                    <li><a href="#">Equipamentos<span class="material-symbols-outlined">chevron_right</span></a></li>
+                    <li><a href="#">Fishing Center<span class="material-symbols-outlined">chevron_right</span></a></li>
+                    <li><a href="#">Hotéis<span class="material-symbols-outlined">chevron_right</span></a></li>
+                    <li><a href="#">Licenças<span class="material-symbols-outlined">chevron_right</span></a></li>
+                    <li><a href="#">Mala<span class="material-symbols-outlined">chevron_right</span></a></li>
+                    <li><a href="#">Missões<span class="material-symbols-outlined">chevron_right</span></a></li>
+                    <li><a href="#">Passwords<span class="material-symbols-outlined">chevron_right</span></a></li>
+                    <li><a href="#">Peixes<span class="material-symbols-outlined">chevron_right</span></a></li>
+                    <li><a href="#">Quadro de Avisos<span class="material-symbols-outlined">chevron_right</span></a></li>
+                    <li><a href="#">Regiões<span class="material-symbols-outlined">chevron_right</span></a></li>
+                    <li><a href="#">Transportes<span class="material-symbols-outlined">chevron_right</span></a></li>
                 </ul>
             </menu>
         </nav>
     </header>
     <main>
-        <article class="imgprincipal"><!-- Imagem principal --></article>
+        <div class="vazio"></div>
+        
+        <article class="imgprincipal">
+            <!-- Imagem principal -->
+        </article>
+        
         <article class="conteudo_principal">
+            
             <h1>Wiki Fishing Resort</h1>
-            <p>Fishing Resort é um jogo desenvolvido pela Prope exclusivamente para o Nintendo Wii, o jogo é em estilo RPG de mundo semi-aberto. O principal objetivo é completar o livro de peixes. O jogo contém exatamente 216 espécies, sendo 12 que só podem aparecer com senha. O objetivo deste wiki é ajudar os jogadores a coletar todos, aprender sobre eles, e ter sucesso no objetivo principal, pegar todos os peixes! O jogo contém espécies do mundo todo, e alguns extintos também!</p>
+            
+            <p>Iae! tranquilo? Me chamo Cristhian, e estou aqui para fazer um detonado de um jogo incrível que gosto muito chamado Fishing Resort, é um jogo desenvolvido pela Prope exclusivamente para o Nintendo Wii, o jogo é em estilo RPG de mundo semi-aberto. O principal objetivo é completar o livro de peixes. O jogo contém exatamente 216 espécies, sendo 12 que só podem aparecer com senhas. O objetivo deste wiki é ajudar os jogadores a coletar todos, aprender sobre eles, e ter sucesso no objetivo principal, pegar todos os peixes! O jogo contém espécies do mundo todo, e alguns extintos também!</p>
+            
             <h1>Penangkapan Island</h1>
-            <div class="penan">
-                <section class="penan"><img src="img/mapa_fr_1500.jpg" alt="Mapa Fishing Resort" class="mapa_fr"></section>
-                <section class="cont_penan">
-                    <p>Penangkapan Island é uma grande ilha fictícia onde se passa o Fishing Resort, esta ilha também é um lugar perfeito para os entusiastas da pesca pois contém 8 áreas de pesca dentro dela, sendo duas praias, dois rios, dois lagos e dois pantanais. Atrai visitantes de todo o mundo, nos quais podem desfrutar do seu tempo em várias pousadas e hotéis. Além disso, a ilha oferece vários passeios de pesca, como Ferry Tours e Trolling Tours no oceano circundante. Para turistas mais recreativos, contem o Aquário e muitas outras atividades.</p>
-                </section>
-            </div>
+            
+            <section class="penan"><img src="img/mapa_fr.jpg" alt="Mapa Fishing Resort" class="mapa_fr"></section>
+            
+            <p>Penangkapan Island é uma grande ilha fictícia onde se passa o Fishing Resort, esta ilha também é um lugar perfeito para os entusiastas da pesca pois contém 8 áreas de pesca dentro dela, sendo duas praias, dois rios, dois lagos e dois pantanais. Atrai visitantes de todo o mundo, nos quais podem desfrutar do seu tempo em várias pousadas e hotéis. Além disso, a ilha oferece vários passeios de pesca, como Ferry Tours e Trolling Tours no oceano circundante. Para turistas mais recreativos, contem o Aquário e muitas outras atividades.</p>
+        
         </article>
     </main>
     <footer>
@@ -44,7 +62,7 @@
     <script>
         function mudouTamanho() {
             if (window.innerWidth >= 768) {
-                itens.style.display = "flex"
+                itens.style.display = "block"
                 itens.style.paddingBottom = "30px"
             }
             else {
@@ -52,11 +70,11 @@
             }
         }
         function clickMenu() {
-            if (itens.style.display == "flex") {
+            if (itens.style.display == "block") {
                 itens.style.display = "none"
             }
             else {
-                itens.style.display = "flex"
+                itens.style.display = "block"
                 itens.style.paddingBottom = "30px"
             }
         }

@@ -5,6 +5,7 @@
 * {
     margin: 0;
     padding: 0;
+    overflow: visible;
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -34,25 +35,38 @@ header .navbar #burger {
     margin-right: 25px;
 }
 header .navbar #itens {
+    display: none;
     text-align: right;
     position: absolute;
     right: 0;
     top: 100%;
 }
 header .navbar ul {
-    display: flex;
-    flex-direction: column;
     background-color: #fff;
+    text-align: center;
+    width: 100vw;
+    padding-bottom: 20px;
+    column-count: 2;
 }
 header .navbar ul li {
     list-style: none;
+    padding: 0 10px;
+    padding-bottom: .5vw;
 }
 header .navbar ul li a {
-    font-size: 1.2em;
     height: 100%;
-    margin: 0 5px;
+    width: 100vw;
+    font-size: 4vw;
     color: black;
     text-decoration: none;
+}
+header .navbar ul li a:hover {
+    text-decoration: underline;
+}
+header .navbar ul li span {
+    font-size: 7vw;
+    height: 100%;
+    transform: translateY(2.4vw);
 }
 
 
@@ -61,38 +75,35 @@ main {
     background-color: #fff;
     color: #222;
 }
+main .vazio {
+    height: 30px;
+}
 main .imgprincipal {
     width: 100vw;
     background-image: url(../img/fr_background03.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 500px;
     display: block;
 }
 main .conteudo_principal {
-    padding: 30px;
+    padding: 15px;
 }
 main .conteudo_principal h1 {
-    padding: 20px 0;
-    font-size: 4.2vw;
+    padding: 10px 0 20px 0;
+    font-size: 7vw;
     font-weight: 900;
 }
 main .conteudo_principal p {
     text-indent: 10px;
     line-height: 1.5em;
     max-width: 700px;
-    font-size: 2.5vw;
+    font-size: 4vw;
     padding-bottom: 20px;
+    padding-left: 10px;
 }
-main .penan {
-    display: flex;
-    align-items: center;
-}
-main .penan img {
-    max-width: 700px;
-}
-main .penan p {
-    max-width: 600px;
-    padding-left: 40px;
+main .conteudo_principal img {
+    width: 100%;
+    padding-bottom: 20px;
 }
