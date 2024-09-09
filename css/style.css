@@ -15,6 +15,8 @@ body {
 
 
 
+/* Header */
+
 header .navbar {
     background-color: #fff;
     display: block;
@@ -72,6 +74,8 @@ header .navbar ul li span {
 
 
 
+/* Main */
+
 main {
     background-color: #fff;
     color: #222;
@@ -79,6 +83,7 @@ main {
 main .vazio {
     height: 70px;
 }
+
 main .imgprincipal {
     width: 100vw;
     background-image: url(../img/fr_background04.jpg);
@@ -89,6 +94,7 @@ main .imgprincipal {
     display: block;
     margin-bottom: 10px;
 }
+
 main .conteudo_principal {
     padding: 15px;
 }
@@ -114,9 +120,10 @@ main .conteudo_principal img {
     padding-bottom: 20px;
     padding-top: 10px;
 }
+
 main .conteudo_principal .img_teman {
     background-image: url(../img/fr04.png);
-    background-position: center center;
+    background-position: center top;
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
@@ -130,5 +137,5 @@ main .conteudo_principal .img_teman p, .img_teman h1 {
     background-color: #00000090;
     margin: 0 -15px 0 -15px;
     padding: 0 15px 15px 15px;
-    text-shadow: 1.5px 1.5px 3px #000000;
+    text-shadow: 1.5px 1.5px 3px #00000050;
 }
