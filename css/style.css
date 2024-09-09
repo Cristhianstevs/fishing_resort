@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /* MOBILE FIRST */
+/* No Mínimo 320px de largura*/
 
 * {
     margin: 0;
@@ -112,4 +113,22 @@ main .conteudo_principal img {
     width: 100%;
     padding-bottom: 20px;
     padding-top: 10px;
+}
+main .conteudo_principal .img_teman {
+    background-image: url(../img/fr04.png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    margin: 0 -15px 0 -15px;
+    padding: 0 15px 0 15px;
+}
+main .conteudo_principal .img_teman h1 {
+    padding-left: 15px;
+}
+main .conteudo_principal .img_teman p, .img_teman h1 {
+    background-color: #00000090;
+    margin: 0 -15px 0 -15px;
+    padding: 0 15px 15px 15px;
+    text-shadow: 1.5px 1.5px 3px #000000;
 }
