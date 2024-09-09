@@ -3,6 +3,17 @@
 /* MOBILE FIRST */
 /* No Mínimo 320px de largura*/
 
+:root {
+    --colorBlack: #000;
+    --colorWhite: #fff;
+    --color01: #0A4FC4;
+    --color02: #30A8F2;
+    --color03: #07C7F2;
+    --color04: #0CDBF2;
+    --color05: #57F7F8;
+    --color06: #FBF4BD;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -85,6 +96,7 @@ main .vazio {
 }
 
 main .imgprincipal {
+    /* Garoto segurando o peixe */
     width: 100vw;
     background-image: url(../img/fr_background04.jpg);
     background-size: cover;
@@ -99,12 +111,12 @@ main .conteudo_principal {
     padding: 15px;
 }
 main .conteudo_principal h1 {
-    padding: 20px 0 20px 0;
+    padding: 20px 0 5px 0;
     font-size: 7vw;
     font-weight: 900;
 }
 main .conteudo_principal h2 {
-    padding-bottom: 5px;
+    padding: 20px 0 5px 0;
     font-size: 5vw;
     font-weight: 700;
 }
@@ -113,31 +125,45 @@ main .conteudo_principal p {
     line-height: 1.5em;
     max-width: 700px;
     font-size: 4vw;
-    padding-bottom: 20px;
+    padding: 4px 0;
+}
+main .conteudo_principal a {
+    color: var(--color01);
+    text-indent: 5vw;
+    text-decoration: none;
+    font-weight: bolder;
+}
+main .conteudo_principal a:hover {
+    text-decoration: underline;
 }
 main .conteudo_principal img {
+    /* Mapa Fishing Resort */
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-top: 10px;
 }
 
 main .conteudo_principal .img_teman {
+    /* Imagen da praia */
     background-image: url(../img/fr04.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #fff;
-    margin: 0 -15px 0 -15px;
-    padding: 0 15px 0 15px;
-    height: 100%;
+    margin: 15px -15px 0 -15px;
+    padding: 0 15px;
+    height: 50%;
 }
 main .conteudo_principal .img_teman h1 {
     padding-left: 15px;
 }
+main .conteudo_principal .img_teman a {
+    color: var(--color06);
+}
 main .conteudo_principal .img_teman p, .img_teman h1 {
     background-color: #00000090;
-    margin: 0 -15px 0 -15px;
+    margin: 0 -15px;
     padding: 0 15px 15px 15px;
     text-shadow: 1.5px 1.5px 3px #00000050;
 }
