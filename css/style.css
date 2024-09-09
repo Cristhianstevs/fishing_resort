@@ -123,12 +123,14 @@ main .conteudo_principal img {
 
 main .conteudo_principal .img_teman {
     background-image: url(../img/fr04.png);
-    background-position: center top;
+    background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     color: #fff;
     margin: 0 -15px 0 -15px;
     padding: 0 15px 0 15px;
+    height: 100%;
 }
 main .conteudo_principal .img_teman h1 {
     padding-left: 15px;
