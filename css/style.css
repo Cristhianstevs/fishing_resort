@@ -103,7 +103,7 @@ main .vazio {
 
 main .imgprincipal {
     /* Garoto segurando o peixe */
-    width: 100vw;
+    width: 100%;
     background-image: url(../img/fr_background04.jpg);
     background-size: cover;
     background-position: center top;
