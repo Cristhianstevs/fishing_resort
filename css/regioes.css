@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* Estilos CSS para as abas de Região */
+
+
+
+/* Gerais */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*overflow: hidden;*/
+
+
+
+/* header*/
+
+header .img_regioes img {
+    width: calc(100vw - 8px);
+    border: 4px solid var(--colorBorda);
+}
+
+
+/* Main */
+
+.main_regioes {
+    padding: 10px;
+}
+.main_regioes .comentario_regioes {
+    margin: 10px -20px;
+}
+.main_regioes .aspas_cima, .aspas_baixo {
+    width: 12px;
+    height: 12px;
+    margin: 0 15px;
+}
+.main_regioes .aspas_baixo {
+    margin-left: calc(100% - 30px);
+    padding-bottom: 5px;
+}
+.main_regioes h4 {
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 100;
+    padding: 0 20px;
+}
+.main_regioes img {
+    width: 90%;
+}
