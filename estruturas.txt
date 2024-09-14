@@ -1,0 +1,16 @@
+Códigos para todos os .html
+
+    onresize="mudouTamanho()"
+
+    <head>
+        // Todos os links do head do index
+
+    <header>
+        // <div id="menu"></div>
+        // <div class="vazio"></div>
+
+    <footer>
+        // <div id="footer"></div>
+
+    final do <body>
+        // <script src="js/script.js"></script>

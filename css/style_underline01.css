@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* Animação de Underline - Centro para as Laterais */
+/* Para que a animação funcine atribua a classe "animated-underline-01" à tag desejada */
+
+.animated-underline-01 {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+}
+.animated-underline-01::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background-color: #fff;
+    left: 50%;
+    bottom: -1px;
+    transform-origin: center;
+    transition: width 0.4s ease-in-out;
+}
+.animated-underline-01:hover::after {
+    width: 100%;
+    left: 50%;
+    transform: none;
+    transform-origin: center;
+}
+.animated-underline-01::after {
+    transition: width 0.4s ease-in-out, left 0.4s ease-in-out;
+}
+.animated-underline-01:hover::after {
+    width: 100%;
+    left: 0;
+}

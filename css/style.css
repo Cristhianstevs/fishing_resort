@@ -25,10 +25,14 @@
     margin: 0;
     padding: 0;
     overflow: visible;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
+}
+.vazio {
+    height: 82.5px;
 }
 
 
@@ -99,9 +103,6 @@ main {
     background-color: #fff;
     color: #222;
 }
-main .vazio {
-    height: 70px;
-}
 
 main .imgprincipal {
     /* Garoto segurando o peixe */
@@ -170,7 +171,7 @@ main .conteudo_principal .img_teman a {
     color: var(--color06);
 }
 main .conteudo_principal .img_teman p, .img_teman h1 {
-    background-color: #00000090;
+    background-color: #000000b0;
     margin: 0 -15px;
     padding: 0 15px 15px 15px;
     text-shadow: 1.5px 1.5px 3px #00000050;
@@ -188,21 +189,14 @@ footer {
     background-color: var(--color08);
 }
 footer .rodape {
-    padding: 5px;
+    padding: 10px;
+    text-align: center;
 }
 footer .rodape p {
     color: var(--colorWhite);
-    font-size: 3vw;
-    text-align: center;
-    margin: 0 5vw;
-    padding-bottom: 5px;
-    border-bottom: 1px solid var(--colorWhite);
+    font-size: 3.5vw;
 }
 footer .rodape a {
     text-decoration: none;
-    font-weight: 700;
     color: var(--colorWhite);
-}
-footer .rodape a:hover {
-    text-decoration: underline;
 }
