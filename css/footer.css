@@ -1,0 +1,16 @@
+footer {
+    background-color: var(--color08);
+}
+footer .rodape {
+    padding: 10px;
+    text-align: center;
+}
+footer .rodape p {
+    color: var(--colorWhite);
+    font-size: 3.5vw;
+}
+footer .rodape a {
+    text-decoration: none;
+    color: var(--colorWhite);
+    font-weight: 100;
+}

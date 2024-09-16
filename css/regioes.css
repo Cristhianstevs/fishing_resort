@@ -10,14 +10,24 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /*overflow: hidden;*/
 }
+#img_teman {
+    background-image: url(../img/partemapa_teman.png);
+}
 
 
 
 /* header*/
 
-header .img_regioes img {
-    width: calc(100vw - 8px);
+.img_regioes {
+    background-size: 105%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    aspect-ratio: 16/9;
     border: 4px solid var(--colorBorda);
+    transition: background-size .7s;
+}
+.img_regioes:hover {
+    background-size: 110%;
 }
 
 

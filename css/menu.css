@@ -1,0 +1,76 @@
+header .navbar {
+    background-color: #fff;
+    display: block;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+}
+header .navbar img {
+    width: 130px;
+    margin: 10px;
+}
+header .navbar #burger {
+    position: absolute;
+    right: 0;
+    top: 35%;
+    display: block;
+    cursor: pointer;
+    margin-right: 25px;
+}
+header .navbar #itens {
+    display: none;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 95.7vw;
+}
+header .navbar ul {
+    background-color: #fff;
+    text-align: left;
+    width: 100vw;
+    padding-bottom: 20px;
+    column-count: 2;
+}
+header .navbar ul li {
+    list-style: none;
+    padding: 0 10px;
+    padding-bottom: .5vw;
+}
+header .navbar ul li a {
+    height: 100%;
+    width: 100vw;
+    font-size: 4vw;
+    color: black;
+    text-decoration: none;
+}
+header .navbar ul li span {
+    font-size: 7vw;
+    height: 100%;
+    transform: translateY(2.4vw);
+}
+
+
+
+/* Animação Underline */
+
+.animated-underline-02 {
+    text-decoration: none;
+    color: #000;
+    position: relative;
+}
+.animated-underline-02::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background-color: #000;
+    left: 0;
+    bottom: -3px;
+    transition: width 0.4s ease-in-out;
+}
+.animated-underline-02:hover::after {
+    width: 100%;
+    left: 0;
+}
