@@ -15,35 +15,43 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /*overflow: hidden;*/
 }
-#img_teman {
-    background-image: url(../img/partemapa_teman.png);
-}
-#img_pacar {
-    background-image: url(../img/partemapa_pacar.png);
-}
-#img_duaribu {
-    background-image: url(../img/partemapa_duaribu.png);
-}
-#img_kenan {
-    background-image: url(../img/partemapa_kenan.png);
-}
-#img_kerikil {
-    background-image: url(../img/partemapa_kerikil.png);
-}
-#img_tidur {
-    background-image: url(../img/partemapa_tidur.png);
-}
-#img_panas {
-    background-image: url(../img/partemapa_panas.png);
-}
-#img_malan {
-    background-image: url(../img/partemapa_malam.png);
-}
+#img_teman {background-image: url(../img/partemapa_teman.png);}
+#img_pacar {background-image: url(../img/partemapa_pacar.png);}
+#img_duaribu {background-image: url(../img/partemapa_duaribu.png);}
+#img_kenan {background-image: url(../img/partemapa_kenan.png);}
+#img_kerikil {background-image: url(../img/partemapa_kerikil.png);}
+#img_tidur {background-image: url(../img/partemapa_tidur.png);}
+#img_panas {background-image: url(../img/partemapa_panas.png);}
+#img_malan {background-image: url(../img/partemapa_malam.png);}
+#img_ocean {background-image: url(../img/mapa_fr_650.jpg);}
+#img_sembilan {background-image: url(../img/partemapa_sembilan.png);}
+#img_sepuluh {background-image: url(../img/partemapa_sepuluh.png);}
+#img_safir {background-image: url(../img/partemapa_safir.png);}
 
 /* ---------- CSS da página regioes.html ---------- */
 
 /* main */
 
+main {
+    padding: 15px;
+}
+main h1 {
+    padding: 25px 0 5px 0;
+    font-size: 7vw;
+    font-weight: 900;
+}
+main h2 {
+    padding: 20px 0 5px 0;
+    font-size: 5vw;
+    font-weight: 700;
+}
+main p {
+    text-indent: 5vw;
+    line-height: 1.5em;
+    max-width: 700px;
+    font-size: 4vw;
+    padding: 4px 0;
+}
 main .flex_img {
     display: flex;
     flex-direction: column;
