@@ -28,6 +28,8 @@ body {
 #img_sepuluh {background-image: url(../img/partemapa_sepuluh.png);}
 #img_safir {background-image: url(../img/partemapa_safir.png);}
 
+
+
 /* ---------- CSS da página regioes.html ---------- */
 
 /* main */
@@ -51,6 +53,15 @@ main p {
     max-width: 700px;
     font-size: 4vw;
     padding: 4px 0;
+}
+main a {
+    color: var(--color01);
+    text-indent: 5vw;
+    text-decoration: none;
+    font-weight: bolder;
+}
+main a:hover {
+    text-decoration: underline;
 }
 main .flex_img {
     display: flex;
@@ -104,4 +115,7 @@ main .flex_img .img_regioes {
 }
 .main_regioes img {
     width: 90%;
+}
+.main_regioes .text_tank {
+
 }
