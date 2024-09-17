@@ -1,10 +1,15 @@
 @charset "UTF-8";
 
-/* Estilos CSS para as abas de Região */
+/* 
 
+Estilos CSS para as abas de:
 
+regioes.html
+teman.html / pacar.html / panas.html ...
 
-/* Gerais */
+*/
+
+/* ---------- Gerais ---------- */
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,10 +18,46 @@ body {
 #img_teman {
     background-image: url(../img/partemapa_teman.png);
 }
+#img_pacar {
+    background-image: url(../img/partemapa_pacar.png);
+}
+#img_duaribu {
+    background-image: url(../img/partemapa_duaribu.png);
+}
+#img_kenan {
+    background-image: url(../img/partemapa_kenan.png);
+}
+#img_kerikil {
+    background-image: url(../img/partemapa_kerikil.png);
+}
+#img_tidur {
+    background-image: url(../img/partemapa_tidur.png);
+}
+#img_panas {
+    background-image: url(../img/partemapa_panas.png);
+}
+#img_malan {
+    background-image: url(../img/partemapa_malam.png);
+}
+
+/* ---------- CSS da página regioes.html ---------- */
+
+/* main */
+
+main .flex_img {
+    display: flex;
+    flex-direction: column;
+}
+main .flex_img .img_regioes {
+    margin: 10px 0;
+}
 
 
 
-/* header*/
+/* ---------- CSS das regiões individuais ---------- */
+/* ---------- Ex: teman.html / pacar.html ---------- */
+
+/* header */
 
 .img_regioes {
     background-size: 105%;
@@ -29,7 +70,6 @@ body {
 .img_regioes:hover {
     background-size: 110%;
 }
-
 
 /* Main */
 
